@@ -140,7 +140,6 @@ y_hat = model1.predict(X_test)              # Predict the target variable using 
 
 # Calculate the mean squared error (MSE) between the actual and predicted values
 print('MSE :' , mean_squared_error(y_test, y_hat))
-plt.scatter(y_test, y_hat)
 
 # Calculate the coefficient of determination (R-squared score) between the actual and predicted values
 print('r2_score = ',r2_score(y_test, y_hat))
